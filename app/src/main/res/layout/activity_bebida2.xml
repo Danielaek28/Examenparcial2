@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE3DA"
+    tools:context=".bebida2">
+    <TextView
+        android:id="@+id/titulo7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo7"
+        android:gravity="center"
+        android:padding="20dp"
+        android:background="#FF5722"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="italic"/>
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/titulo7"
+        android:layout_gravity="center"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/img_9" />
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagen"
+        android:gravity="center"
+        android:layout_marginLeft="120dp"
+        android:text="@string/ingredientes5"
+        android:textColor="#9A050202"
+        android:textSize="20dp" />
+
+
+
+    <Button
+        android:id="@+id/btns3"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_delete"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <TextView
+        android:id="@+id/fin3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="675dp"
+        android:gravity="center"
+        android:background="#FF5722"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="italic"/>
+
+
+</RelativeLayout>

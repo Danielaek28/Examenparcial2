@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_3"
+    tools:context=".inicio">
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MENU"
+        android:gravity="center"
+        android:padding="20dp"
+        android:background="#FF5722"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt4"
+        android:layout_marginTop="90dp"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text4"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:textSize="25dp">
+
+        <Button
+            android:id="@+id/pizza"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/btn5"
+            android:background="#FF5722"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/bebida"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:background="#FF5722"
+            android:text="@string/btn6"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/img_2" />
+
+        <Button
+            android:id="@+id/salir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:text="@string/btnsa"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

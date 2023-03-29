@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE3DA"
+    tools:context=".Registro">
+
+    <TextView
+        android:id="@+id/registro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo2"
+        android:gravity="center"
+        android:padding="20dp"
+        android:background="#FF5722"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="italic"/>
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contenido2"
+        android:layout_marginTop="70dp"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:paddingLeft="15dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/tex1"
+            android:textSize="25dp"/>
+
+        <EditText
+            android:id="@+id/editnombre"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:inputType="text"
+            android:hint="@string/editn"
+            android:minHeight="48dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:paddingLeft="15dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/tex2"
+            android:textSize="25dp"/>
+
+        <EditText
+            android:id="@+id/editdirec"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:inputType="text"
+            android:hint="@string/editd"
+            android:minHeight="48dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registro"
+        android:layout_marginTop="420dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:textSize="25dp">
+
+
+        <Button
+            android:id="@+id/guardardatos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="35dp"
+            android:background="#F7D50000"
+            android:text="@string/btn3" />
+
+        <Button
+            android:id="@+id/salir"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#D50000"
+            android:layout_marginTop="35dp"
+            android:text="@string/btn4" />
+    </LinearLayout>
+
+</RelativeLayout>

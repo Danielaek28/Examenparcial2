@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Proyectofinal</string>
+    <string name="titulo">PIZZA PIZZA</string>
+    <string name="btn1">Iniciar</string>
+    <string name="btn2">Salir</string>
+    <string name="contenido">Aplicacion de pizzas y bedidas </string>
+    <string name="contenido2">Aplicacion de pizzas y bedidas
+        Registrate </string>
+    <string name="titulo2">BIENVENID@</string>
+    <string name="tex1">Nombre:</string>
+    <string name="tex2">Direccion:</string>
+    <string name="editn">Teclea tu nombre</string>
+    <string name="editd">Teclea tu direccion</string>
+    <string name="btn3">Guardar datos</string>
+    <string name="btn4">Salir</string>
+    <string name="titulo3">Inicio</string>
+    <string name="btn5">PIZZA</string>
+    <string name="btn6">BEBIDAS</string>
+    <string name="txt4">Contamos con diferentes tipos de pizza y bedidas</string>
+    <string name="btn7">PIZZA DE PEPPERONI</string>
+    <string name="btn8">PIZZA SAUSAGE</string>
+    <string name="btn9">LIMONADA</string>
+    <string name="btn10">NARANJADA</string>
+    <string name="btn12">MANGO</string>
+    <string name="btns1">Regresar</string>
+    <string name="btns2">Regresar</string>
+    <string name="titulo4">PIZZA DE PEPPERONI</string>
+    <string name="ingredientes1">
+        Precio: 180 pesos
+    Tu elección de masa cubierta con nuestra exclusiva salsa de pizza, verdadero queso mozzarella y pepperoni. Con pepperoni en casi todos los bocados, es una de nuestras pizzas más populares.</string>
+    <string name="titulo5">PIZZA SAUSAGE</string>
+    <string name="ingredientes2">
+        Precio: 200 pesos
+    Nuestra salsa de pizza exclusiva cubierta con salchicha y queso mozzarella verdadero para obtener un sabor irresistible. Tu elección de masa.</string>
+    <string name="btnsa">Salir</string>
+    <string name="titulo6">LIMONADA</string>
+    <string name="ingredientes3">
+        Precio: 50 pesos
+Refréscate con esta LIMONADA con MENTA hecha con el agua de manantial de PERRIER® Natural, la bebida perfecta para tus reuniones con amigos y familia.
+    </string>
+
+    <string name="titulo7">NARANJADA</string>
+    <string name="ingredientes5">
+        Precio: 60 pesos
+ Para calmar la sed y protegerse de los golpes de calor del verano, Una forma muy saludable de refrescarse y disfrutar de un refrigerio que te aporte vitaminas, minerales y mucha energía.
+</string>
+    <string name="btn11">PIZZA HAWAIANA </string>
+    <string name="titulo9">PIZZA HAWAIANA</string>
+    <string name="ingredientes6">
+        Precio: 150 pesos
+    pizza que contiene una base de queso fundido y tomate que se aliñan con jamón y piña</string>
+
+    <string name="titulo8">MANGO</string>
+    <string name="ingredientes7">
+         Precio: 80 pesos
+    Los mangos son naturalmente dulces pero si desea puede adicionar azúcar
+</string>
+</resources>
